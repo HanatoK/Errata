@@ -1,0 +1,22 @@
+\documentclass[]{article}
+
+%opening
+\title{Errata: Boosting Free-Energy Perturbation Calculations with GPU- 
+Accelerated NAMD}
+
+\begin{document}
+
+\maketitle
+
+\section{Equation (4)}
+
+\begin{eqnarray}\label{eq:lj_scaling}
+\Delta U_{\lambda_{i-1}\rightarrow \lambda_{i}}^{\rm LJ} & = & 
+U_{\lambda_{i}}^{\rm LJ}(\mathbf{x})-U_{\lambda_{i-1}}^{\rm 
+LJ}(\mathbf{x})\nonumber\\
+U_{\lambda_k}^{\rm LJ}(\mathbf{x}) & = & \displaystyle 
+\lambda_k\left[\frac{A}{(r^2+\delta(1-\lambda_k))^6}-\frac{B}{(r^2+\delta(1-\lambda_k))^3}\right]\;\forall
+ k=i, i-1\nonumber
+\end{eqnarray}
+
+\end{document}
